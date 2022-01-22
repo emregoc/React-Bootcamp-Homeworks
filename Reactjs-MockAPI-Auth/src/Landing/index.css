@@ -1,0 +1,66 @@
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px 50px;
+}
+.landing__left{
+    max-width: 520px;
+    margin-right: 20px;
+}
+.landing__title{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Poppins;
+    box-sizing: border-box;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 35px;
+
+}
+.landing__context{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 188.8%;
+}
+.landing__hope{
+    margin-bottom: 20px;
+}
+.landing__support{
+    margin-bottom: 20px;
+}
+.landing__luck{
+    margin-bottom: 20px;
+}
+.landing__left-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.landing__arrow{
+    text-align: center;
+    font-size: 28px;
+    margin: 50px 0;
+}
+.landing__btn{
+    height: 70px;
+    font-size: 25px;
+    border:none;
+    border-radius: 100px;
+    background: linear-gradient(0deg, #EA5050 0%, #EE745B 100%);
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+.landing__right{
+    max-width: 100%;
+    margin-top: 60px;
+    overflow:hidden;
+}

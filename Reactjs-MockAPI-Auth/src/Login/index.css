@@ -1,0 +1,27 @@
+.login{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #00B4DB 0%, #0083B0 100%);
+}
+.login__page{
+  width: 100%;
+  height: 100%;
+
+}
+.login__back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/avatar_makata_vespa_04.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+}
+.login__login-form{
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  border-radius: 40px;
+  overflow-y:scroll;
+}

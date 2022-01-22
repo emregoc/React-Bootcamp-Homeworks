@@ -1,0 +1,35 @@
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 18px;
+}
+.field__text{
+    display: flex;
+    justify-content: flex-start;
+    color: #414042;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+.field__input{
+    width: 250px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 12px;
+}
+.field__text-bottom{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color:#465685;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

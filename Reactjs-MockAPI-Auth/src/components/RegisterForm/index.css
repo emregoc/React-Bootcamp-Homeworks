@@ -1,0 +1,69 @@
+.register-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.register-form{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 38px 80px;
+
+}
+.register-form__title{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 46px;
+    margin-bottom: 18px;
+}
+.register__or{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    color: #798995;
+}
+.register__social-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.register__footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.register__dont{
+    font-family: Poppins;
+    font-size: 10px;
+    line-height: 16px;
+    color: #BCBEC0;
+    margin-right: 5px;   
+}
+.register__register{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 17px;
+    color: #465685;
+    cursor: pointer;
+ 
+}
+.register__image{
+    width: 100%;
+    height: 100%;
+   
+}
+.register__register-image{
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/img/avatar_makata_vespa_04_2.svg');
+    background-size: cover;
+    background-repeat: no-repeat,repeat;
+}

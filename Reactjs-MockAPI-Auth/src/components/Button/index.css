@@ -1,0 +1,13 @@
+.form-btn__button{
+  width: 250px;
+  height: 35px;
+  background: #A93159;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
