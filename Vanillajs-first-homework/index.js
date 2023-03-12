@@ -28,4 +28,6 @@ function isCreditCardNumberValid(cardNumber){
 
 }
 
+console.log("ekleme");
+
 isCreditCardNumberValid(cardNumber);
